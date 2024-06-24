@@ -1,8 +1,14 @@
-# React + Vite
+-Online Shop 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Spa Web App For Online Shop
 
-Currently, two official plugins are available:
+Very Modern Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Created With Vite Tool
+
+-Full Responsive
+
+-BeatiFull Design 
+
+-Backend Online API 
+https://fakestoreapi.com/docs
