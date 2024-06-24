@@ -1,6 +1,6 @@
 -Online Shop 
 
-A Spa Web App For Online Shop
+A Spa For Online Shop
 
 Very Modern Design
 
@@ -11,4 +11,12 @@ Very Modern Design
 -BeatiFull Design 
 
 -Backend Online API 
+
+
 https://fakestoreapi.com/docs
+
+-Login Page 
+
+-Basket Page
+
+
