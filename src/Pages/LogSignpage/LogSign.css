@@ -1,0 +1,162 @@
+.login,
+.signup {
+    padding-top: 10rem;
+}
+
+.login-container {
+    height: 50vh;
+    position: relative;
+}
+
+.signup-container {
+    position: relative;
+    height: 60vh;
+}
+
+.form-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fffffff1;
+    height: 60vh;
+    width: 25vw;
+    text-align: center;
+    padding: 50px 25px;
+    border-radius: 15px;
+}
+
+.signup-container .form-container {
+    height: 65vh;
+}
+
+.form-container .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-container .form-group label {
+    align-self: self-start;
+    font-size: 22px;
+}
+
+.form-container .form-group input {
+    padding: 13px 7px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: .3s all;
+}
+
+.form-container .form-group input:focus {
+    box-shadow: rgba(17, 17, 26, 0.33) 0px 4px 16px, rgba(17, 17, 26, 0.33) 0px 8px 24px, rgba(17, 17, 26, 0.33) 0px 16px 56px;
+}
+
+.form-btn {
+    width: 90%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #263238;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .4s all;
+    letter-spacing: 1px;
+}
+
+.form-btn:hover {
+    transform: scale(1.05);
+}
+
+.login-container .no-acc,
+.signup-container .no-acc {
+    margin-top: 15px;
+}
+
+.login-container .form-container .forgot-p,
+.login-container .no-acc span,
+.signup-container .no-acc span {
+    color: #3F51B5;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .4s all;
+    margin-top: 20px;
+}
+
+.login-container .no-acc span,
+.signup-container .no-acc span {
+    font-size: 16px;
+}
+
+.login-container .form-container .forgot-p:hover,
+.login-container .no-acc span:hover,
+.signup-container .form-container .forgot-p:hover,
+.signup-container .no-acc span:hover {
+    color: #001486;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .form-container {
+        width: 35vw;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .form-container {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .form-container {
+        width: 45vw;
+        height: 50vh;
+
+    }
+
+    .form-container .form-group label {
+        font-size: 18px;
+    }
+
+    .form-container .form-group input {
+        padding: 9px 5px;
+    }
+
+    .form-btn {
+        padding: 7px;
+        font-size: 16px;
+    }
+
+
+    .signup-container .form-container {
+        height: 60vh;
+    }
+
+    .login-container .no-acc span,
+    .signup-container .no-acc span {
+        font-size: 12px;
+    }
+
+    .login-container .no-acc,
+    .signup-container .no-acc {
+        font-size: 12px;
+    }
+
+    .login-container .form-container .forgot-p,
+    .login-container .no-acc span,
+    .signup-container .no-acc span {
+        font-size: 10px;
+    }
+
+    @media screen and (max-width:550px) {
+        .form-container {
+            width: 65vw;
+        }
+    }

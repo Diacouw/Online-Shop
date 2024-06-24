@@ -1,0 +1,53 @@
+.about-us{
+    padding-top: 10rem;
+}
+
+
+.about-us-container{
+
+}
+
+.about-us-container .start-time{
+    background: rgba(250, 250, 250, .3);
+    border-radius: 20px;
+    padding: 20px 30px;
+    text-align: justify;
+}
+
+.about-us-container .start-time .st-title{
+    text-align: center;
+    font-size: 33px;
+    margin-bottom: 14px;
+}
+
+.about-us-container .start-time .st-desc{
+
+    font-size: 15px;
+    line-height: 1.4;
+    color: white;
+}
+
+.num-branches .our-branches{
+    font-size: 40px;
+    width: 50vw;
+    text-align: center;
+    margin: 30px auto;
+    padding: 0 0 10px;
+    border-bottom: white 2px solid;
+}
+
+
+@media screen and (max-width:500px){
+    .about-us-container .start-time .st-title{
+        font-size: 28px;
+    }
+    .about-us-container .start-time .st-desc{
+        font-size: 12px;
+    
+    }
+
+    .num-branches .our-branches{
+        font-size: 32px;
+    }
+    
+}

@@ -1,0 +1,52 @@
+.hero {
+
+    padding-top: 10rem;
+    
+}
+
+.some-products {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.see-some {
+    margin: 0 auto;
+    width: 450px;
+    margin-bottom: 30px;
+
+}
+
+.see-some span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(to right, #146cf2, #00a2ff, #00c6e4, #00df87, #a8eb12);
+}
+
+.see-some h3 {
+    font-size: 50px;
+    color: white;
+}
+
+
+@media screen and (max-width:500px) {
+    .see-some h3{
+        font-size:40px ;
+    }
+    
+.see-some span {
+    width: 80%;
+}
+}
+@media screen and (max-width:400px) {
+    .see-some h3{
+        font-size:30px ;
+    }
+    
+.see-some span {
+    width: 60%;
+}
+}

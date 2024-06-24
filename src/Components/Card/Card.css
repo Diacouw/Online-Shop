@@ -1,0 +1,122 @@
+.card {
+    width: 22%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(250, 250, 250, .3);
+    box-sizing: border-box;
+    color: rgb(24, 24, 24);
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px 10px 0 0;
+    background: #fff;
+}
+
+.card-info {
+    padding: 10px 15px;
+}
+
+.card-category p {
+    font-weight: 600;
+    color: darkblue;
+    margin: 3px 0 5px;
+}
+
+.title-price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-price h3 {
+    font-size: 17px;
+}
+
+.title-price h4 {
+    font-size: 24px;
+}
+
+.description {
+    display: flex;
+    align-items: start;
+}
+
+.description p {
+    padding-top: 20px;
+}
+
+.buy {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.buy .btn {
+    width: 44%;
+    border: none;
+    outline: none;
+    padding: 4px 2px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: .4s;
+}
+
+.buy .btn:hover{
+    transform: scale(1.04);
+}
+
+.buy .btn1 {
+    background: #bae8e8;
+}
+
+.buy .btn2 {
+    background: #90f6d7;
+
+}
+
+@media screen and (max-width:850px) {
+    .card {
+        width: 30%;
+    }
+
+    .card-category p {
+        font-size: 15px;
+    }
+
+    .title-price h3 {
+        font-size: 16px;
+    }
+
+    .title-price h4 {
+        font-size: 14px;
+    }
+    
+    .buy .btn{
+        font-size: 12px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width:700px) {
+    .card {
+        width: 45%;
+    }
+   
+}
+
+@media screen and (max-width:450px) {
+    .card {
+        width: 90%;
+    }
+}

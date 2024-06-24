@@ -1,0 +1,144 @@
+.contactus-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    margin-top: 120px;
+}
+
+.contact-l {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-l h3 {
+    font-size: 50px;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social {
+    font-size: 40px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.social:nth-child(1) svg {
+    color: #f6318c;
+}
+
+.social:nth-child(2) svg {
+    color: #128494;
+}
+
+.social:nth-child(3) svg {
+    color: #a56cc1;
+}
+
+.contact-r .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+
+.contact-r .contact-form .form-label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-r .contact-form .input-container {
+    width: 20rem;
+    background-color: red;
+    background-color: white;
+    padding: 6px 4px;
+    border-radius: 8px;
+}
+
+.contact-r .contact-form .input-container input {
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 75%;
+    margin-left: 7px;
+    padding: 6px 0;
+}
+
+.contact-r .contact-form .input-container button {
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1150px) {
+
+    .contact-l h3 {
+        font-size: 42px;
+    }
+
+    .social {
+        font-size: 37px;
+        margin: 15PX;
+    }
+
+    .contact-r .contact-form {
+
+        margin-right: 70px;
+
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    .contact-r .contact-form {
+
+        margin-right: 0;
+
+    }
+}
+
+@media screen and (max-width:750px) {
+    .contactus-container {
+        flex-direction: column;
+    }
+
+    .contact-r {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .contact-r .contact-form .input-container {
+        width: 14rem;
+    }
+
+    .contact-r .contact-form .input-container input {
+       
+        width: 70%;
+        margin-left: 7px;
+    }
+    
+    .contact-r .contact-form .input-container button {
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0, .3);
+        border-radius: 3px;
+        font-size: 14px;
+        padding: 3px;
+    }
+}
